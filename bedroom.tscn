@@ -10,9 +10,9 @@ emission_energy_multiplier = 1.5
 [node name="Bedroom" type="Node3D" unique_id=1206414223]
 
 [node name="floor" type="CSGBox3D" parent="." unique_id=1593270539]
-transform = Transform3D(0.9998649, 0.01644026, 0, -0.01644026, 0.9998649, 0, 0, 0, 1, -6.7897553, -0.7412443, -10.950661)
+transform = Transform3D(0.9998649, 0.01644026, 0, -0.01644026, 0.9998649, 0, 0, 0, 1, -5.7960453, -0.7297964, -10.950661)
 use_collision = true
-size = Vector3(48.793762, 1, 91.264786)
+size = Vector3(50.18643, 1, 91.264786)
 
 [node name="wall 1" type="CSGBox3D" parent="." unique_id=1098246705]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.920824, 1.7885141, -56.60152)
@@ -53,23 +53,28 @@ use_collision = true
 size = Vector3(34.40571, 5, 0.5)
 
 [node name="room 1 wall4" type="CSGBox3D" parent="." unique_id=722373800]
-transform = Transform3D(-0.025944011, 0.028966596, 0.9992437, -0.004833671, 0.9995647, -0.029101403, -0.99965173, -0.0055850237, -0.025792697, -13.379677, 2.0601346, 21.004423)
+transform = Transform3D(-0.025944011, 0.028966596, 0.9992437, -0.004833671, 0.9995647, -0.029101403, -0.99965173, -0.0055850237, -0.025792697, -13.374669, 2.0610676, 21.19738)
 calculate_tangents = false
 use_collision = true
-size = Vector3(26.111692, 5, 0.5)
+size = Vector3(26.497742, 5, 0.5)
 
 [node name="bedroom door" type="CSGBox3D" parent="." unique_id=1748349477]
 transform = Transform3D(-0.99886674, 0, -0.04759465, 0, 1, 0, 0.04759465, 0, -0.99886674, 6.2264833, 0.67703295, -0.44568968)
 operation = 2
-size = Vector3(1.5, 2.2, 1)
+size = Vector3(1.5, 2.2, 0.7)
 
 [node name="door3" type="CSGBox3D" parent="." unique_id=6822579]
 transform = Transform3D(0.017417468, 0, 0.99984837, 0, 1, 0, -0.99984837, 0, 0.017417468, -13.1524515, 0.67703295, 29.255756)
 operation = 2
-size = Vector3(1.5, 2.2, 1)
+size = Vector3(1.5, 2.2, 0.7)
 
 [node name="door2" type="CSGBox3D" parent="." unique_id=1389944447]
 transform = Transform3D(-0.99886674, 0, -0.04759465, 0, 1, 0, 0.04759465, 0, -0.99886674, 6.2264833, 0.67703295, -10.571802)
+operation = 2
+size = Vector3(1.5, 2.2, 0.7)
+
+[node name="door4" type="CSGBox3D" parent="." unique_id=2022587737]
+transform = Transform3D(-0.045868676, 0, 0.9989475, 0, 1, 0, -0.9989475, 0, -0.045868676, -0.08190346, 0.67703295, -51.23896)
 operation = 2
 size = Vector3(1.5, 2.2, 1)
 
@@ -105,6 +110,26 @@ size = Vector3(17.225468, 5, 0.5)
 transform = Transform3D(0.99983746, 0.018028274, 0, -0.018028274, 0.99983746, 0, 0, 0, 1, 8.635611, 2.0023875, -30.92024)
 size = Vector3(17.180918, 5, 0.5)
 
+[node name="room 3 wall6" type="CSGBox3D" parent="." unique_id=206100337]
+transform = Transform3D(0.99983746, 0.018028274, 0, -0.018028274, 0.99983746, 0, 0, 0, 1, 8.423232, 2.006217, -49.331707)
+size = Vector3(17.605743, 5, 0.5)
+
+[node name="room 3 wall5" type="CSGBox3D" parent="." unique_id=1567009780]
+transform = Transform3D(0.99983746, 0.018028274, 0, -0.018028274, 0.99983746, 0, 0, 0, 1, -22.057358, 2.0042212, -49.639774)
+size = Vector3(17.637392, 5, 0.5)
+
+[node name="room 3 wall3" type="CSGBox3D" parent="." unique_id=1594426871]
+transform = Transform3D(0.99983746, 0.018028274, 0, -0.018028274, 0.99983746, 0, 0, 0, 1, -22.474215, 2.0068293, -11.630306)
+size = Vector3(16.688173, 5, 0.5)
+
 [node name="room 3 wall2" type="CSGBox3D" parent="." unique_id=1758739519]
 transform = Transform3D(0.020194134, 0.0068228543, 0.9997729, -0.009173317, 0.99993587, -0.0066386615, -0.999754, -0.009037175, 0.020255439, 0.06746772, 2.2195148, -20.699696)
 size = Vector3(20.499107, 5, 0.5)
+
+[node name="room 3 wall7" type="CSGBox3D" parent="." unique_id=1088546087]
+transform = Transform3D(0.020194134, 0.0068228543, 0.9997729, -0.009173317, 0.99993587, -0.0066386615, -0.999754, -0.009037175, 0.020255439, -0.061158746, 2.2779443, -53.355385)
+size = Vector3(8.052023, 5, 0.5)
+
+[node name="room 3 wall4" type="CSGBox3D" parent="." unique_id=1274399188]
+transform = Transform3D(0.020194134, 0.0068228543, 0.9997729, -0.009173317, 0.99993587, -0.0066386615, -0.999754, -0.009037175, 0.020255439, -13.862097, 2.1434696, -30.588793)
+size = Vector3(38.439816, 5, 0.5)
