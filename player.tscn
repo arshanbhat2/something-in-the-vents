@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://roehl7nv26vs"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_sh265"]
+
+[node name="player" type="Node3D" unique_id=71818570]
+
+[node name="player" type="CharacterBody3D" parent="." unique_id=188520622]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="player" unique_id=239355360]
+shape = SubResource("CapsuleShape3D_sh265")
+
+[node name="Camera3D" type="Camera3D" parent="player" unique_id=515278223]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+
+[node name="SpotLight3D" type="SpotLight3D" parent="player/Camera3D" unique_id=1789246720]
+shadow_enabled = true
+spot_range = 20.0
+spot_angle = 40.0

@@ -2,10 +2,14 @@
 
 [ext_resource type="Texture2D" uid="uid://bedshtys3lqqo" path="res://some thing in the vents city img.jpg" id="2_kpde0"]
 
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iw0c1"]
+
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e18cj"]
 albedo_texture = ExtResource("2_kpde0")
 emission_enabled = true
 emission_energy_multiplier = 1.5
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kpde0"]
 
 [node name="Bedroom" type="Node3D" unique_id=1206414223]
 
@@ -28,6 +32,7 @@ size = Vector3(91.595, 5, 0.5)
 transform = Transform3D(0.002862283, 0, 0.99999595, 0, 1, 0, -0.99999595, 0, 0.002862283, 17.529716, 1.8362303, -11.374282)
 use_collision = true
 size = Vector3(90.60033, 5, 0.5)
+material = SubResource("StandardMaterial3D_iw0c1")
 
 [node name="wall3" type="CSGBox3D" parent="." unique_id=1931086758]
 transform = Transform3D(-0.99994814, -0.004243188, -0.009269958, -0.0042157397, 0.9999868, -0.0029778345, 0.0092824735, -0.0029385856, -0.99995273, -6.7687187, 1.5674233, 34.393574)
@@ -127,9 +132,14 @@ transform = Transform3D(0.020194134, 0.0068228543, 0.9997729, -0.009173317, 0.99
 size = Vector3(20.499107, 5, 0.5)
 
 [node name="room 3 wall7" type="CSGBox3D" parent="." unique_id=1088546087]
-transform = Transform3D(0.020194134, 0.0068228543, 0.9997729, -0.009173317, 0.99993587, -0.0066386615, -0.999754, -0.009037175, 0.020255439, -0.061158746, 2.2779443, -53.355385)
-size = Vector3(8.052023, 5, 0.5)
+transform = Transform3D(0.020194134, 0.0068228543, 0.9997729, -0.009173317, 0.99993587, -0.0066386615, -0.999754, -0.009037175, 0.020255439, -0.069960505, 2.2819426, -52.919636)
+size = Vector3(7.1803083, 5, 0.5)
 
 [node name="room 3 wall4" type="CSGBox3D" parent="." unique_id=1274399188]
 transform = Transform3D(0.020194134, 0.0068228543, 0.9997729, -0.009173317, 0.99993587, -0.0066386615, -0.999754, -0.009037175, 0.020255439, -13.862097, 2.1434696, -30.588793)
 size = Vector3(38.439816, 5, 0.5)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=63256199]
+transform = Transform3D(-0.03161966, 0, 0.9051906, 0, 0.8336012, 0, 3.2063804, 0, 0.008926509, 17.214636, 1.9083319, -40.084)
+size = Vector3(5.566162, 5.826172, 0.1)
+material = SubResource("StandardMaterial3D_kpde0")
